@@ -1,0 +1,9 @@
+.footer__resource-logo {
+  width: 161px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__resource-logo {
+    width: 115px;
+  }
+}

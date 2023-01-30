@@ -1,0 +1,21 @@
+.news-card__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.21;
+  color: #333;
+  margin: 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .news-card__title {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .news-card__title {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}

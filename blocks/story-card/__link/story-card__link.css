@@ -1,0 +1,27 @@
+.story-card__link {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  transition: .3s ease-in-out;
+}
+
+.story-card__link:hover {
+  color: #00275c;
+}
+
+@media screen and (max-width: 1120px) {
+  .story-card__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .story-card__link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+  }
+}

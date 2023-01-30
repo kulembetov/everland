@@ -1,0 +1,8 @@
+.story-card__link-container {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #333;
+}

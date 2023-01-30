@@ -1,0 +1,33 @@
+.button_theme_secondary-transparent {
+  grid-area: button;
+  box-sizing: border-box;
+  width: 194px;
+  height: 48px;
+  padding: 0;
+  border: 1px solid #333;
+  outline: none;
+  color: #333;
+  background-color: transparent;
+  align-self: end;
+  transition: .3s ease-in-out;
+}
+
+.button_theme_secondary-transparent:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+@media (max-width: 679px) {
+  .button_theme_secondary-transparent {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .button_theme_secondary-transparent {
+    width: 200px;
+    height: 44px;
+    font-size: 16px;
+  }
+}

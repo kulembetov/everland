@@ -1,0 +1,18 @@
+.social-project__arrow-counter {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+@media (max-width: 1120px) {
+  .social-project__arrow-counter {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 680px) {
+  .social-project__arrow-counter {
+    font-size: 14px;
+  }
+}

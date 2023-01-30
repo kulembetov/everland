@@ -1,0 +1,27 @@
+.support__list-item {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #333333;
+}
+
+@media screen and (max-width: 767px) {
+  .support__list-item {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .support__list-item:nth-child(n + 6) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .support__list-item {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}

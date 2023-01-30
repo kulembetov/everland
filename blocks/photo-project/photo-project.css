@@ -1,0 +1,15 @@
+.photo-project {
+  box-sizing: border-box;
+  max-width: calc(100% - 80px);
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #e7f0ff;
+  padding: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .photo-project {
+    max-width: calc(100% - 20px);
+    padding: 25px;
+  }
+}

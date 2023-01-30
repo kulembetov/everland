@@ -1,0 +1,11 @@
+.footer__resource {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__resource {
+    gap: 10px;
+  }
+}

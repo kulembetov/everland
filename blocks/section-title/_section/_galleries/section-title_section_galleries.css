@@ -1,0 +1,26 @@
+.section-title_section_galleries {
+  grid-area: title;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1310px) {
+  .section-title_section_galleries {
+    font-size: 36px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .section-title_section_galleries {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-title_section_galleries {
+    width: 100%;
+    font-size: 26px;
+  }
+}

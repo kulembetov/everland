@@ -1,0 +1,18 @@
+.form-subscription__label_payment-method {
+  width: 184px;
+  height: 46px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-subscription__label_payment-method {
+    width: calc(100% - 2px);
+    height: 42px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .form-subscription__label_payment-method {
+    width: 188px;
+    height: 42px;
+  }
+}

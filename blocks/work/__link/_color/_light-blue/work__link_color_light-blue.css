@@ -1,0 +1,9 @@
+.work__link_color_light-blue {
+  color: #0C4BA0;
+  background: #E7F0FF;
+}
+
+.work__link_color_light-blue:hover {
+  color: #fff;
+  background: #0C4BA0;
+}

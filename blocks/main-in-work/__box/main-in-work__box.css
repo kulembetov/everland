@@ -1,0 +1,23 @@
+.main-in-work__box {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 2px solid #dadada;
+  border-radius: 30px;
+  padding: 26px 20px;
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .main-in-work__box {
+    border-radius: 20px;
+    padding: 18px 20px;
+  }
+}
+
+@media screen and (max-width: 679px) {
+  .main-in-work__box {
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 17px 10px;
+  }
+}

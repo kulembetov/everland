@@ -1,0 +1,10 @@
+.digits {
+  max-width: calc(100% - 80px);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 679px) {
+  .digits {
+    max-width: calc(100% - 20px);
+  }
+}

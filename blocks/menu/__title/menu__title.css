@@ -1,0 +1,23 @@
+.menu__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1120px) {
+  .menu__title {
+    font-size: 20px;
+    padding-bottom: 8px;
+  }
+}
+
+@media (max-width: 680px) {
+  .menu__title {
+    padding-bottom: 0;
+    font-size: 18px;
+  }
+}

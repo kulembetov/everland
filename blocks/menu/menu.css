@@ -1,0 +1,29 @@
+.menu {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: absolute;
+  transform: translateY(-200%);
+  transition: 0.6s all linear;
+  z-index: 3;
+  padding: 40px;
+}
+
+@media (max-width: 679px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 32px 16px 10px 10px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .menu {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 64px;
+    padding: 10px 0 10px 39px;
+  }
+}

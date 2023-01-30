@@ -1,0 +1,25 @@
+.form-subscription__input-payment-method-container {
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  display: flex;
+  gap: 0 20px;
+  padding: 0;
+  margin: 0;
+  width: 594px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-subscription__input-payment-method-container {
+    flex-direction: column;
+    gap: 16px 0;
+    width: 260px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .form-subscription__input-payment-method-container {
+    gap: 0 16px;
+    width: 602px;
+  }
+}

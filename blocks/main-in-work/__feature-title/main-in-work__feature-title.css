@@ -1,0 +1,21 @@
+.main-in-work__feature-title {
+  margin: 0;
+  padding: 0;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1133px) {
+  .main-in-work__feature-title {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-in-work__feature-title {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}

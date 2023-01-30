@@ -1,0 +1,12 @@
+.form-subscription__item {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  display: none;
+}
+
+.form-subscription__item:checked + .form-subscription__label {
+  border: 1px solid #0c4ba0;
+}

@@ -1,0 +1,22 @@
+.menu__items-title {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  align-content: start;
+  row-gap: 26px;
+}
+
+@media (max-width: 1120px) {
+  .menu__items-title {
+    row-gap: 24px;
+    grid-column: 1/3;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .menu__items-title {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+}

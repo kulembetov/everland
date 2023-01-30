@@ -1,0 +1,21 @@
+.secondary-menu__title {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #333;
+  padding: 12px 0;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.secondary-menu__title:hover {
+  color: #00275c;
+}
+
+@media (max-width: 1120px) {
+  .secondary-menu__title {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}

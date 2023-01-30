@@ -1,0 +1,11 @@
+.story__description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 680px) {
+  .story__description {
+    gap: 16px;
+  }
+}

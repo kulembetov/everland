@@ -1,0 +1,15 @@
+.social-project__arrows {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  grid-area: arrows;
+  align-self: end;
+  justify-content: start;
+}
+
+@media (max-width: 680px) {
+  .social-project__arrows {
+    align-self: center;
+    justify-content: center;
+  }
+}

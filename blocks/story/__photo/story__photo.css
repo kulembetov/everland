@@ -1,0 +1,22 @@
+.story__photo {
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1 / 1;
+}
+
+@media screen and (max-width: 1120px) {
+  .story__photo {
+    width: 204px;
+    height: 204px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .story__photo {
+    width: 80px;
+    height: 80px;
+  }
+}

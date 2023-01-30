@@ -1,0 +1,11 @@
+@media screen and (min-width: 680px) and (max-width: 879px) {
+  .projects__box:nth-child(3n) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1120px) {
+  .projects__box:nth-child(3n) {
+    display: block;
+  }
+}

@@ -1,0 +1,11 @@
+.main-in-work__button-plus {
+  width: 17px;
+  height: 17px;
+}
+
+@media screen and (max-width: 769px) {
+  .main-in-work__button-plus {
+    width: 12px;
+    height: 12px;
+  }
+}

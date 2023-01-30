@@ -1,0 +1,21 @@
+.story-card__subtitle {
+  margin: 0;
+  flex-grow: 1;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.21;
+}
+
+@media screen and (max-width: 1120px) {
+  .story-card__subtitle {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .story-card__subtitle {
+    font-size: 16px;
+    line-height: 1.19;
+  }
+}

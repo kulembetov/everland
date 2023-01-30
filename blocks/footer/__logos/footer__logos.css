@@ -1,0 +1,19 @@
+.footer__logos {
+  display: flex;
+  gap: 94px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__logos {
+    gap: 20px;
+    align-items: baseline;
+    margin-left: 14px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer__logos {
+    margin-left: 10px;
+    align-items: center;
+  }
+}

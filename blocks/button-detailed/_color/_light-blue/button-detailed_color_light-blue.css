@@ -1,0 +1,9 @@
+.button-detailed_color_light-blue {
+  color: #0C4BA0;
+  background: #E7F0FF;
+}
+
+.button-detailed_color_light-blue:hover {
+  color: #fff;
+  background: #0C4BA0;
+}

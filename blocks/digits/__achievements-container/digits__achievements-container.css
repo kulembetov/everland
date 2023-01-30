@@ -1,0 +1,23 @@
+.digits__achievements-container {
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 30px;
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .digits__achievements-container {
+    width: 100%;
+    row-gap: 33px;
+  }
+}
+
+@media screen and (max-width: 679px) {
+  .digits__achievements-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+    margin-bottom: 24px;
+  }
+}

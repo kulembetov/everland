@@ -1,0 +1,34 @@
+.story {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+  padding: 50px 0;
+}
+
+.story:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1120px) {
+  .story {
+    gap: 32px;
+    padding: 0;
+    margin-bottom: 32px;
+  }
+  .story:last-of-type {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .story {
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .story:nth-child(2n) {
+    flex-direction: column;
+  }
+}

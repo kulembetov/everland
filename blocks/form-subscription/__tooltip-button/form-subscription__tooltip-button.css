@@ -1,0 +1,18 @@
+.form-subscription__tooltip-button {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+  padding: 2px;
+  background-image: url(../../../images/question.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: none;
+}
+
+.form-subscription__tooltip-button:hover + .form-subscription__tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

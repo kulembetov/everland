@@ -1,0 +1,18 @@
+.footer__social-logo {
+  width: 65px;
+  max-height: 50px;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease-in-out;
+}
+
+.footer__social-logo:hover {
+  opacity: .9;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__social-logo {
+    width: 40px;
+    max-height: 20px;
+  }
+}

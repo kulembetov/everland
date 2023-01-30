@@ -1,0 +1,20 @@
+.story__quote {
+  width: 34px;
+  padding: 15px 13px 0;
+  object-fit: fill;
+  object-position: center;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 1120px) {
+  .story__quote {
+    width: 28px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .story__quote {
+    width: 24px;
+  }
+}

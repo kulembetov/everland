@@ -1,0 +1,21 @@
+.menu__arrow {
+  background-image: url(../../../images/shevron.svg);
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  display: none;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+@media (max-width: 680px) {
+  .menu__arrow {
+    display: block;
+  }
+}

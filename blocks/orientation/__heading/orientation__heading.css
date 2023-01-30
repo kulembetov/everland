@@ -1,0 +1,15 @@
+.orientation__heading {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 679px) {
+  .orientation__heading {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .orientation__heading {
+    margin-bottom: 32px;
+  }
+}

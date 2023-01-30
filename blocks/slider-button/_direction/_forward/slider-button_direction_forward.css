@@ -1,0 +1,19 @@
+.slider-button_direction_forward {
+  background-image: url(../../../../images/arrow_forward.svg);
+}
+
+.slider-button_direction_forward:disabled {
+  background-color: #c4c4c4;
+  background-image: url(../../../../images/arrow_forward-disabled.svg);
+}
+
+@media screen and (max-width: 1110px) {
+  .slider-button_direction_forward {
+    background-image: url(../../../../images/arrow-forward_mobile.svg);
+  }
+
+  .slider-button_direction_forward:disabled {
+    background-color: #c4c4c4;
+    background-image: url(../../../../images/arrow-forward-disabled_mobile.svg);
+  }
+}

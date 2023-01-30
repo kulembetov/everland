@@ -1,0 +1,51 @@
+.main-in-work__feature-button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 47px;
+  min-height: 47px;
+  border-radius: 20px;
+  background-color: #e7f0ff;
+  background-image: url(../../../images/Icon_plus.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.main-in-work__feature-button:hover {
+  cursor: pointer;
+  background-color: #0c4ba0;
+  background-image: url(../../../images/Icon_plus_hover.svg);
+}
+
+.main-in-work__feature-button:active {
+  background-image: url(../../../images/Icon_plus_active.svg);
+}
+
+.main-in-work__feature-button:disabled {
+  background-color: #c4c4c4;
+  background-image: url(../../../images/Icon_plus_disabled.svg);
+}
+
+@media screen and (max-width: 810px) {
+  .main-in-work__feature-button {
+    width: 32px;
+    min-height: 32px;
+    background-image: url(../../../images/Icon_plus_mobile.svg);
+  }
+
+  .main-in-work__feature-button:hover {
+    background-image: url(../../../images/Icon_plus_hover_mobile.svg);
+  }
+
+  .main-in-work__feature-button:active {
+    background-image: url(../../../images/Icon_plus_active_mobile.svg);
+  }
+
+  .main-in-work__feature-button:disabled {
+    background-image: url(../../../images/Icon_plus_disabled_mobile.svg);
+  }
+}

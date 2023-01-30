@@ -1,0 +1,12 @@
+.news-card__description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+@media screen and (max-width: 1120px) {
+  .news-card__description {
+    gap: 10px;
+  }
+}

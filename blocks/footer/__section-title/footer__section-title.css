@@ -1,0 +1,20 @@
+.footer__section-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.21;
+  margin: 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__section-title {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer__section-title {
+    font-size: 16px;
+    line-height: 1.19;
+  }
+}

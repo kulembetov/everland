@@ -1,0 +1,13 @@
+.secondary-menu {
+  width: calc(100% - 84px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1120px) {
+  .secondary-menu {
+    display: none;
+  }
+}

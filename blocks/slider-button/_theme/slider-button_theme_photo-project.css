@@ -1,0 +1,12 @@
+.slider-button_theme_photo-project {
+  background-color: #333;
+}
+
+.slider-button_theme_photo-project:hover {
+  cursor: pointer;
+  background-color: #0c4ba0;
+}
+
+.slider-button_theme_photo-project:active {
+  background-color: #00275c;
+}

@@ -1,0 +1,15 @@
+.photo-project__button-container {
+  grid-area: slider-buttons-container;
+  width: 78px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-self: end;
+}
+
+@media screen and (max-width: 1110px) {
+  .photo-project__button-container {
+    width: 56px;
+    height: 24px;
+  }
+}

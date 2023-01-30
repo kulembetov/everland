@@ -1,0 +1,11 @@
+.orientation__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1120px) {
+  .orientation__text {
+    gap: 10px;
+  }
+}

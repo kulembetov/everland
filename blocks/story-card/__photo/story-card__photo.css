@@ -1,0 +1,21 @@
+.story-card__photo {
+  width: 224px;
+  height: 224px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1120px) {
+  .story-card__photo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .story-card__photo {
+    width: 80px;
+    height: 80px;
+  }
+}

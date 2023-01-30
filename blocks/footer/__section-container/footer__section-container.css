@@ -1,0 +1,17 @@
+.footer__section-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__section-container {
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer__section-container {
+    row-gap: 45px;
+  }
+}

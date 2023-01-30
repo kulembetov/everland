@@ -1,0 +1,14 @@
+.work__arrow {
+  width: 16px;
+  height: 16px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .work__arrow {
+    width: 12px;
+    height: 12px;
+  }
+}

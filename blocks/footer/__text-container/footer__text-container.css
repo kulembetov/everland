@@ -1,0 +1,19 @@
+.footer__text-container {
+  display: flex;
+  gap: 54px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__text-container {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer__text-container {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,18 @@
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__section {
+    row-gap: 12px;
+  }
+}
+
+
+@media screen and (max-width: 680px) {
+  .footer__section {
+    row-gap: 15px;
+  }
+}

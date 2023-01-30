@@ -1,0 +1,13 @@
+.slider-button_theme_social-project {
+    background-color: #0C4BA0;
+}
+
+.slider-button_theme_social-project:hover {
+    cursor: pointer;
+    background-color: #0C4BA0;
+}
+
+.slider-button_theme_social-project:active {
+    background-color: #00275C;
+}
+

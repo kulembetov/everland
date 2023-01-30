@@ -1,0 +1,19 @@
+.form-subscription__other-sum {
+  width: 157px;
+  height: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-subscription__other-sum {
+    grid-column: 1 / span 2;
+    width: calc(100% - 2px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .form-subscription__other-sum {
+    width: 188px;
+    height: 42px;
+    grid-column: 1 / span 2;
+  }
+}

@@ -1,0 +1,22 @@
+.story-card {
+  background-color: #EAE6FF;
+  display: flex;
+  border-radius: 30px;
+  gap: 20px;
+  padding: 30px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .story-card {
+    gap: 16px;
+    padding: 22px 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .story-card {
+    padding: 16px;
+  }
+}

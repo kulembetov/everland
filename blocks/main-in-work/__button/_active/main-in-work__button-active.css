@@ -1,0 +1,6 @@
+.main-in-work__button_active {
+    background-color: #0c4ba0;
+    stroke: #fff;
+    transform: rotate(45deg);
+    transition: all .3s linear;
+  }

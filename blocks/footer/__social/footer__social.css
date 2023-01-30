@@ -1,0 +1,10 @@
+.footer__social {
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__social {
+    gap: 0;
+  }
+}

@@ -1,0 +1,18 @@
+.story-card__link-icon {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 1120px) {
+  .story-card__link-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .story-card__link-icon {
+    width: 24px;
+    height: 24px;
+  }
+}

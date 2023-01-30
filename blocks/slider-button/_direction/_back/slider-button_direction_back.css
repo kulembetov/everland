@@ -1,0 +1,13 @@
+.slider-button_direction_back {
+  background-image: url(../../../../images/arrow_back.svg);
+}
+
+.slider-button_direction_back:disabled {
+  background-color: #c4c4c4;
+}
+
+@media screen and (max-width: 1110px) {
+  .slider-button_direction_back {
+    background-image: url(../../../../images/arrow-back_mobile.svg);
+  }
+}

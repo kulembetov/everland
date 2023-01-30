@@ -1,0 +1,9 @@
+.button-detailed_color_light-orange {
+  color: #E98509;
+  background: #FEEFEA;
+}
+
+.button-detailed_color_light-orange:hover {
+  color: #fff;
+  background: #E98509;
+}

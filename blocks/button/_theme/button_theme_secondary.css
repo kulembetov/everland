@@ -1,0 +1,11 @@
+.button_theme_secondary {
+  box-sizing: border-box;
+  border: 1px solid #0c4ba0;
+  color: #0c4ba0;
+}
+
+.button_theme_secondary:hover {
+  border: 1px solid #00275c;
+  color: #00275c;
+  transition: 0.3s all linear;
+}

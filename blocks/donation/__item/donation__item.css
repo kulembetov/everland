@@ -1,0 +1,16 @@
+.donation__item {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  display: none;
+}
+
+.donation__item:checked + .donation__label {
+  border: 1px solid #0c4ba0;
+}
+
+.donation__item:checked ~ .donation__label[value="250"] {
+  border: 1px solid #0c4ba0;
+}

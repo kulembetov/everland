@@ -1,0 +1,19 @@
+.support__right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .support__right-container {
+    margin: 0 0 32px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .support__right-container {
+    margin: 0 0 50px 0;
+  }
+}

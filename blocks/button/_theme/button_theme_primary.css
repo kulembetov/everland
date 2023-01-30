@@ -1,0 +1,9 @@
+.button_theme_primary {
+  background-color: #0c4ba0;
+  color: #ffffff;
+  transition: .3s ease-in-out;
+}
+
+.button_theme_primary:hover {
+  background-color: #4183dc;
+}

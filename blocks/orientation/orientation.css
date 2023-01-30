@@ -1,0 +1,21 @@
+.orientation {
+  max-width: calc(100% - 80px);
+  margin: auto;
+  padding: 100px 0;
+}
+
+@media screen and (max-width: 679px) {
+  .orientation {
+    max-width: calc(100% - 20px);
+    margin: auto;
+    padding: 32px 0 64px 0;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .orientation {
+    max-width: calc(100% - 80px);
+    margin: auto;
+    padding: 50px 0 100px 0;
+  }
+}

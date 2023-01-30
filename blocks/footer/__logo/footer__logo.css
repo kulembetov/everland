@@ -1,0 +1,17 @@
+.footer__logo {
+  object-fit: contain;
+  object-position: center;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.footer__logo:hover {
+  opacity: .9;
+}
+
+@media screen and (max-width: 680px) {
+  .footer__logo {
+    max-width: 73px;
+    max-height: 34px;
+  }
+}

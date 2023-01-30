@@ -1,0 +1,23 @@
+.news-card__date {
+  flex-shrink: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.28;
+  color: rgba(38, 38, 38, 0.5);
+  margin: 0;  
+}
+
+@media screen and (max-width: 1120px) {
+  .news-card__date {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .news-card__date {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+}

@@ -1,0 +1,20 @@
+.story__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1120px) {
+  .story__title {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+} 
+
+@media screen and (max-width: 680px) {
+  .story__title {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}

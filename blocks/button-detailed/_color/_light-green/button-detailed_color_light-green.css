@@ -1,0 +1,9 @@
+.button-detailed_color_light-green {
+  color: #319B17;
+  background: #DAEFD5
+}
+
+.button-detailed_color_light-green:hover {
+  color: #fff;
+  background: #319B17;
+}

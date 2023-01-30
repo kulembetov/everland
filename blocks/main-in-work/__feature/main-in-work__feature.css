@@ -1,0 +1,26 @@
+.main-in-work__feature {
+  border: 2px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 810px) {
+  .main-in-work__feature {
+    padding: 0 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .main-in-work__feature {
+    padding: 0 20px 0 16px;
+    border-radius: 15px;
+    border-width: 1px;
+  }
+}

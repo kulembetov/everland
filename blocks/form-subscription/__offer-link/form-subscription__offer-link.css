@@ -1,0 +1,20 @@
+.form-subscription__offer-link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #0c4ba0;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+
+.form-subscription__offer-link:hover {
+  color: #00275c;
+}
+
+@media screen and (max-width: 1279px) {
+  .form-subscription__offer-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}

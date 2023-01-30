@@ -1,0 +1,11 @@
+.stories__container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1120px) {
+  .stories__container {
+    gap: 0;
+  }
+}

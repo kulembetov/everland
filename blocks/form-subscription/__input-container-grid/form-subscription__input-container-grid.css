@@ -1,0 +1,9 @@
+.form-subscription__input-container-grid {
+  margin: 0;
+  padding: 0;
+  border: none;
+  gap: 0 5px;
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+}

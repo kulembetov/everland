@@ -1,0 +1,32 @@
+.support__heading-gratitude {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  width: 488px;
+  margin-top: 0;
+  margin-bottom: 74px;
+}
+
+@media screen and (max-width: 767px) {
+  .support__heading-gratitude {
+    max-width: calc(100% - 20px);
+    font-size: 18px;
+    padding: 32px 10px 36px;
+    margin: 0;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .support__heading-gratitude {
+    padding: 50px 0 32px 0;
+    margin: 0;
+    width: 531px;
+    font-size: 26px;
+    line-height: 31px;
+  }
+}

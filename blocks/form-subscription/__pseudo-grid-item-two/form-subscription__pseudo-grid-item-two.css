@@ -1,0 +1,12 @@
+.form-subscription__pseudo-grid-item-two {
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background: #ffffff;
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #333333;
+  border-radius: 10px;
+}

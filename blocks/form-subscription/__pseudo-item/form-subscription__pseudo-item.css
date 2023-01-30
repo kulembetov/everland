@@ -1,0 +1,24 @@
+.form-subscription__pseudo-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  color: #333333;
+  white-space: pre;
+}
+
+@media screen and (max-width: 767px) {
+  .form-subscription__pseudo-item {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .form-subscription__pseudo-item {
+    font-size: 16px;
+  }
+}

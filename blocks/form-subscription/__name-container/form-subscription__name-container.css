@@ -1,0 +1,23 @@
+.form-subscription__name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 21px 0;
+  justify-self: left;
+  align-self: flex-start;
+  width: calc(100% - 217px);
+  margin: 12px 0 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-subscription__name-container {
+    width: calc(100% - 22px);
+    margin: 9px 0 29px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .form-subscription__name-container {
+    width: calc(100% - 195px);
+    margin: 0 0 31px;
+  }
+}

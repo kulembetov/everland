@@ -1,0 +1,18 @@
+.projects__figure {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 679px) {
+  .projects__figure {
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .projects__figure {
+    gap: 20px;
+  }
+}

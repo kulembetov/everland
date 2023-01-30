@@ -1,0 +1,11 @@
+.footer__link {
+  max-width: max-content;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+
+.footer__link:hover {
+  color: #00275c;
+}

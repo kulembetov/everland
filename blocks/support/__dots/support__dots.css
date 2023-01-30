@@ -1,0 +1,5 @@
+.support__dots {
+  margin: 0 10px;
+  border-bottom: 2px dotted #333333;
+  width: calc(100% - 20px);
+}

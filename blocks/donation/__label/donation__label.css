@@ -1,0 +1,34 @@
+.donation__label {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  width: 159px;
+  min-height: 48px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: border-color .3s ease-in-out;
+}
+
+.donation__label:hover {
+  cursor: pointer;
+  border-color: #0c4ba0;
+}
+
+@media screen and (max-width: 767px) {
+  .donation__label {
+    width: 122px;
+    min-height: 44px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .donation__label {
+    width: 75px;
+    min-height: 44px;
+  }
+}

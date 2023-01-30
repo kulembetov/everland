@@ -1,0 +1,22 @@
+.form-subscription__pseudo-grid-item {
+  padding: 0;
+  background: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #333333;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-subscription__pseudo-grid-item {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .form-subscription__pseudo-grid-item {
+    font-size: 16px;
+  }
+}

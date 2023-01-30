@@ -1,0 +1,20 @@
+.header__menu {
+  height: 26px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+
+.header__menu:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1120px) {
+  .header__menu {
+    height: 24px;
+    order: 2;
+  }
+}

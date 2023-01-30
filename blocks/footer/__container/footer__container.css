@@ -1,0 +1,23 @@
+.footer__container {
+  display: grid;
+  grid-template-columns: 550px 1fr;
+  row-gap: 110px;
+  column-gap: 50px;
+  margin-right: 150px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__container {
+    margin-right: 0;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 60px;
+    column-gap: 20px; 
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer__container {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+}

@@ -1,0 +1,20 @@
+.digits__image {
+  width: 40.8%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 679px) {
+  .digits__image {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .digits__image {
+    display: none;
+  }
+}

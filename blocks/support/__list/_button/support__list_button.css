@@ -1,0 +1,14 @@
+.support__list_button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  width: 159px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+}

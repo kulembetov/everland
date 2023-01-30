@@ -1,0 +1,22 @@
+.support__list-name {
+  display: flex;
+  align-items: baseline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #333333;
+  margin-bottom: 28px;
+}
+
+.support__list-name::before {
+  content: "";
+  border-bottom: 2px dotted #333333;
+  flex-grow: 1;
+  order: 2;
+  margin: 0 10px;
+}
+
+.support__list-name:last-child {
+  margin-bottom: 0;
+}

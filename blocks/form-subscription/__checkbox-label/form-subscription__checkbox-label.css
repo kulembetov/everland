@@ -1,0 +1,33 @@
+.form-subscription__checkbox-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #333333;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  transition: .3s ease-in-out;
+}
+
+.form-subscription__checkbox-label:hover {
+  opacity: 0.8;
+}
+
+.form-subscription__checkbox-label::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  background: #dadada;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1120px) {
+  .form-subscription__checkbox-label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}

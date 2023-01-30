@@ -1,0 +1,9 @@
+.support__list-sum-and-time_six {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .support__list-sum-and-time_six {
+    color: rgba(0, 0, 0, 0.2);
+  }
+}

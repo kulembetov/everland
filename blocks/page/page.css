@@ -1,0 +1,21 @@
+.page {
+  min-width: 320px;
+  max-width: 1440px;
+  min-height: 100vh;
+  font-family: 'Raleway', 'Helvetica', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: 'lnum';
+  -moz-font-feature-settings: 'lnum=1';
+  -ms-font-feature-settings: 'lnum';
+  -webkit-font-feature-settings: 'lnum';
+  -o-font-feature-settings: 'lnum';
+}

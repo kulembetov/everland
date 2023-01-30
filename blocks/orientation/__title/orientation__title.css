@@ -1,0 +1,19 @@
+.orientation__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+  color: #333;
+  margin: 0;
+}
+
+@media screen and (max-width: 679px) {
+  .orientation__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .orientation__title {
+    font-size: 26px;
+  }
+}

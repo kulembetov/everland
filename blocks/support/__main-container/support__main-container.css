@@ -1,0 +1,30 @@
+.support__main-container {
+  display: flex;
+  gap: 0 117px;
+    width: calc(100% - 40px);
+  margin: 0 0 0 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .support__main-container {
+    flex-direction: column;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    gap: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .support__main-container {
+    flex-direction: column;
+    width: calc(100% - 80px);
+    gap: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1375px) {
+  .support__main-container {
+    gap: 0 60px;
+  }
+}

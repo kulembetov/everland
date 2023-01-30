@@ -1,0 +1,28 @@
+.orientation__box {
+  min-height: 428px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px;
+}
+
+@media screen and (max-width: 679px) {
+  .orientation__box  {
+    min-height: auto;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 24px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .orientation__box {
+    min-height: auto;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 30px;
+  }
+}

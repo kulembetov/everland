@@ -1,0 +1,19 @@
+.social-project__arrow-back {
+  border: none;
+  padding: 17.5px;
+  border-radius: 10px;
+  background-color: #0c4ba0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../../images/arrow_back.svg);
+  background-size: 17px;
+  cursor: pointer;
+}
+
+@media (max-width: 1150px) {
+  .social-project__arrow-back {
+    padding: 12px;
+    background-size: 10px 10px;
+    border-radius: 6px;
+  }
+}

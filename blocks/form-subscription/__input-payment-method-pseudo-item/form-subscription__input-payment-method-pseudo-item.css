@@ -1,0 +1,13 @@
+.form-subscription__input-payment-method-pseudo-item {
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background: #ffffff;
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #333333;
+  border-radius: 10px;
+}

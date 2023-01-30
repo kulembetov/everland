@@ -1,0 +1,14 @@
+.orientation__boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .orientation__boxes {
+    grid-template: 1fr / repeat(auto-fit, minmax(280px, 1fr));
+  }
+}

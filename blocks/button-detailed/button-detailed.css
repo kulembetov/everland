@@ -1,0 +1,37 @@
+.button-detailed {
+  width: fit-content;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  display: inline-flex;
+  gap: 14px;
+  align-items: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-top: auto;
+  padding: 12px 10px;
+}
+
+.button-detailed:hover {
+  color: #00275c;
+}
+
+@media screen and (max-width: 679px) {
+  .button-detailed {
+    font-size: 14px;
+    padding: 14px 10px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .button-detailed {
+    font-size: 16px;
+    padding: 13px 10px;
+  }
+}

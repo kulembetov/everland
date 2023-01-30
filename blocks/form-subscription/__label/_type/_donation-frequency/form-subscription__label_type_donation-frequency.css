@@ -1,0 +1,18 @@
+.form-subscription__label_type_donation-frequency {
+  width: 314px;
+  height: 46px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-subscription__label_type_donation-frequency {
+    width: calc(100% - 2px);
+    height: 42px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .form-subscription__label_type_donation-frequency {
+    width: calc(100% - 310px);
+    height: 42px;
+  }
+}

@@ -1,0 +1,13 @@
+.support__list-sum-and-time_three {
+}
+
+@media screen and (max-width: 767px) {
+  .support__list-sum-and-time_three {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .support__list-sum-and-time_three {
+  }
+}

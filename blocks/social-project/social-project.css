@@ -1,0 +1,24 @@
+.social-project {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: calc(100% - 80px);
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+@media (max-width: 679px) {
+  .social-project {
+    width: calc(100% - 20px);
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
+  .social-project {
+    padding-bottom: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
